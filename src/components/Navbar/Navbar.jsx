@@ -6,7 +6,10 @@ import { Link } from 'react-router-dom'; // Import Link component from react-rou
 import { useDispatch, useSelector } from 'react-redux'; // Import useDispatch and useSelector hooks from react-redux
 
 import useStyles from './styles'; // Import styles from external file
-import { Search, Sidebar } from '../index'; // Import Search and Sidebar components
+
+import {Sidebar} from '../Sidebar'
+import {Search} from '../Search'
+
 import { setUser } from '../../features/auth'; // Import setUser action from auth feature
 import { fetchToken, createSessionId, moviesApi } from '../../utils/index'; // Import utility functions
 import { ColorModeContext } from '../../utils/ToggleColorMode'; // Import ColorModeContext from ToggleColorMode file
