@@ -35,7 +35,7 @@ export const createSessionId = async () => {
       });
       localStorage.setItem('sessionId', session_id);
 
-      return session_id;
+      return sessionId; // Updated identifier to camel case
     } catch (error) {
       console.log(error);
       return null; // Added return statement
