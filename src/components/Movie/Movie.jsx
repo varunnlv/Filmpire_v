@@ -28,4 +28,4 @@ function Movie({ movie, i }) {
   );
 }
 
-export {Movie};
+export { Movie };
