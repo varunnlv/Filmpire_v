@@ -37,4 +37,4 @@ function Search() {
   );
 }
 
-export {Search};
+export { Search };
