@@ -33,7 +33,7 @@ export const createSessionId = async () => {
       const { data: { sessionId } } = await moviesApi.post('authentication/session/new', {
         request_token: token,
       });
-      localStorage.setItem('sessionId', session_id);
+      localStorage.setItem('sessionId', sessionId);
 
       return sessionId; // Updated identifier to camel case
     } catch (error) {
