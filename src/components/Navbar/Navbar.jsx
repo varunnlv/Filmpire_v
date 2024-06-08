@@ -47,8 +47,6 @@ function Navbar() {
       <AppBar position="fixed">
         {/* Toolbar component */}
         <Toolbar className={classes.toolbar}>
-
- 
           {/* Menu button for mobile view */}
           {isMobile && (
             <IconButton
@@ -61,9 +59,6 @@ function Navbar() {
               <Menu />
             </IconButton>
           )}
-
-
-
           {/* Toggle color mode button */}
           <IconButton
             color="inherit"
@@ -72,14 +67,8 @@ function Navbar() {
           >
             {theme.palette.mode === 'dark' ? <Brightness7 /> : <Brightness4 />}
           </IconButton>
-
-
-
           {/* Search component */}
           {!isMobile && <Search />}
-
-
-
           {/* User authentication button */}
           <div>
             {!isAuthenticated ? (
@@ -103,19 +92,8 @@ function Navbar() {
               </Button>
             )}
           </div>
-
-
-
-          {/* Search component for mobile view */}
-          {/* {isMobile && <Search />} */}
-
-
-
         </Toolbar>
       </AppBar>
-
-
-
       {/* Drawer component for navigation */}
       <div>
         <nav className={classes.drawer}>
