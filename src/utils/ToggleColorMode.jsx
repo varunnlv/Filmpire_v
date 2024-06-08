@@ -16,8 +16,11 @@ function ToggleColorMode({ children }) {
     },
   }), [mode]);
 
+  // Memoize the value object
+  const contextValue = useMemo(() => ({ mode, setMode, toggleColorMode }), [mode, setMode, toggleColorMode]);
+
   return (
-    <ColorModeContext.Provider value={{ mode, setMode, toggleColorMode }}>
+    <ColorModeContext.Provider value={contextValue}>
       <ThemeProvider theme={theme}>
         {children}
       </ThemeProvider>
