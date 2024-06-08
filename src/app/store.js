@@ -1,5 +1,5 @@
 // Import necessary functions and modules from Redux Toolkit and your project files
-import { configureStore} from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit';
 import { tmdbApi } from '../services/TMDB'; // Import TMDB API slice
 import genreOrCategoryReducer from '../features/currentGenreOrCategory'; // Import reducer for genre or category feature
 import userReducer from '../features/auth'; // Import reducer for user authentication feature
@@ -13,6 +13,6 @@ export default configureStore({
     user: userReducer, // Associate user reducer with its slice name
   },
   // Customize middleware used by the store
-  middleware: (getDefaultMiddleware) => // Use a function to access default middleware provided by Redux Toolkit
+  middleware: (getDefaultMiddleware) => 
     getDefaultMiddleware().concat(tmdbApi.middleware), // Concatenate default middleware with additional TMDB API middleware
 });
