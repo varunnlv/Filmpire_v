@@ -30,4 +30,4 @@ function FeaturedMovie({ movie }) {
   );
 }
 
-export {FeaturedMovie};
+export { FeaturedMovie };
