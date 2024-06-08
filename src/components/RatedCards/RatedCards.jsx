@@ -3,7 +3,7 @@ import { Typography, Box } from '@mui/material';
 
 import useStyles from './styles';
 
-import {Movie} from '../index';
+import {Movie} from '../Movie/Movie';
 
 function RatedCards({ title, movies }) {
   const classes = useStyles();
