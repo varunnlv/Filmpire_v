@@ -20,4 +20,5 @@ function MovieList({ movies, numberOfMovies, excludeFirst }) {
   );
 }
 
-export default MovieList;
+export { MovieList };
+
