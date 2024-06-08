@@ -65,4 +65,4 @@ function Actors() {
   );
 }
 
-export default Actors;
+export {Actors};
