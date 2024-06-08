@@ -5,16 +5,11 @@ import { Routes, Route } from 'react-router-dom';
 import useStyles from './styles';
 import useAlan from './Alan';
 
-
-
-import {Actors} from './index';
-import {Movies} from './index';
-import {MovieInfo} from './index';
-import {Profile} from './index';
-
-import { Navbar } from './index';
-
-
+import {Actors} from '../components/Actors/Actors';
+import {Movies} from '../components/Movies'
+import {MovieInfo} from '../components/MovieInfo'
+import {Profile} from '../components/Profile'
+import { Navbar } from '../components/Navbar';
 
 function App() {
   const classes = useStyles();
