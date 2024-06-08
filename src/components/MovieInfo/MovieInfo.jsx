@@ -6,7 +6,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
 
 import useStyles from './styles';
-import { MovieList } from '../index';
+
+import {MovieList} from '../MovieList';
+
 import { useGetMovieQuery, useGetRecommendationsQuery, useGetListQuery } from '../../services/TMDB';
 import { selectGenreOrCategory } from '../../features/currentGenreOrCategory';
 import genreIcons from '../../assets/genres';
