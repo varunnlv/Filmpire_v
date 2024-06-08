@@ -3,7 +3,7 @@ import { Typography, Box } from '@mui/material';
 
 import useStyles from './styles';
 
-import {Movie} from '../Movie/Movie';
+import { Movie } from '../Movie/Movie';
 
 function RatedCards({ title, movies }) {
   const classes = useStyles();
@@ -20,4 +20,4 @@ function RatedCards({ title, movies }) {
   );
 }
 
-export {RatedCards};
+export { RatedCards };
