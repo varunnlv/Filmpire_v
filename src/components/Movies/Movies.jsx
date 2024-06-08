@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 
 import {MovieList} from '../MovieList/MovieList';
 import {Pagination} from '../Pagination/Pagination';
-import {FeaturedMovie} from './FeaturedMovie/FeaturedMovie';
+import {FeaturedMovie} from '../FeaturedMovie/FeaturedMovie';
 
 import { useGetMoviesQuery } from '../../services/TMDB';
 
