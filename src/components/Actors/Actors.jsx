@@ -6,7 +6,7 @@ import { ArrowBack } from '@mui/icons-material';
 import useStyles from './styles';
 import { useGetActorQuery, useGetMoviesByActorIdQuery } from '../../services/TMDB';
 
-import {MovieList} from '../MovieList/MovieList';
+import {MovieList} from '../MovieList/MovieList.jsx';
 import {Pagination} from '../Pagination/Pagination';
 
 
