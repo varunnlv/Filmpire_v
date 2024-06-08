@@ -1,4 +1,3 @@
-// Import necessary functions and modules from Redux Toolkit and your project files
 import { configureStore } from '@reduxjs/toolkit';
 import { tmdbApi } from '../services/TMDB'; // Import TMDB API slice
 import genreOrCategoryReducer from '../features/currentGenreOrCategory'; // Import reducer for genre or category feature
