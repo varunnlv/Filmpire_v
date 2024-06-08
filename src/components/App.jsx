@@ -6,8 +6,8 @@ import useStyles from './styles';
 import useAlan from './Alan';
 
 import {Actors} from '../components/Actors/Actors';
-import {Movies} from '../components/Movies'
-import {MovieInfo} from '../components/MovieInfo'
+import {Movies} from '../components/Movies/Movies'
+import {MovieInfo} from '../components/MovieInfo/MovieInfo'
 import {Profile} from '../components/Profile'
 import { Navbar } from '../components/Navbar';
 
