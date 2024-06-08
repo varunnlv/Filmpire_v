@@ -75,4 +75,4 @@ function Sidebar({ setMobileOpen }) {
   );
 }
 
-export {Sidebar};
+export { Sidebar };
