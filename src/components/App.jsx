@@ -8,7 +8,7 @@ import useAlan from './Alan';
 import {Actors} from '../components/Actors/Actors';
 import {Movies} from '../components/Movies/Movies';
 import {MovieInfo} from '../components/MovieInfo/MovieInfo';
-import {Profile} from '../components/Profile';
+import {Profile} from '../components/Profile/Profile';
 import { Navbar } from '../components/Navbar';
 
 function App() {
