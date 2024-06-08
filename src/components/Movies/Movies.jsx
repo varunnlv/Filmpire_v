@@ -2,7 +2,13 @@ import React, { useState } from 'react';
 import { Box, CircularProgress, useMediaQuery, Typography } from '@mui/material';
 import { useSelector } from 'react-redux';
 
-import { MovieList, Pagination, FeaturedMovie } from '../index';
+import {MovieList} from '../MovieList';
+import {Pagination} from '../Pagination';
+
+import {FeaturedMovie} from '../FeaturedMovie';
+
+
+
 import { useGetMoviesQuery } from '../../services/TMDB';
 
 function Movies() {
