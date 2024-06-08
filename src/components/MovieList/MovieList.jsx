@@ -1,11 +1,7 @@
 import React from 'react';
 import { Grid } from '@mui/material';
-
 import useStyles from './styles';
-
-
-import {Movie} from '../Movie/Movie';
-
+import { Movie } from '../Movie/Movie';
 
 function MovieList({ movies, numberOfMovies, excludeFirst }) {
   const classes = useStyles();
