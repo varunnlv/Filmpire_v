@@ -7,10 +7,10 @@ import useAlan from './Alan';
 
 
 
-import {Actors} from '../Actors'
-import {Movies} from '../Movies'
-import {MovieInfo} from '../MovieInfo'
-import {Profile} from '../Profile'
+import {Actors} from '../components/Actors/Actors';
+import {Movies} from '../Movies';
+import {MovieInfo} from '../MovieInfo';
+import {Profile} from '../Profile';
 
 import { Navbar } from '../Navbar';
 
