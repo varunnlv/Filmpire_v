@@ -7,7 +7,7 @@ import useStyles from './styles';
 import { useGetActorQuery, useGetMoviesByActorIdQuery } from '../../services/TMDB';
 
 import {MovieList} from '../index';
-import {Pagination} from '../Pagination/Pagination';
+import {Pagination} from'../index';
 
 
 function Actors() {
