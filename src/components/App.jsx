@@ -5,11 +5,11 @@ import { Routes, Route } from 'react-router-dom';
 import useStyles from './styles';
 import useAlan from './Alan';
 
-import {Actors} from '../components/Actors/Actors';
-import {Movies} from '../components/Movies/Movies';
-import {MovieInfo} from '../components/MovieInfo/MovieInfo';
-import {Profile} from '../components/Profile/Profile';
-import {Navbar} from '../components/Navbar/Navbar';
+import Actors from './Actors/Actors';
+import Movies from './Movies/Movies';
+import MovieInfo from './MovieInfo/MovieInfo';
+import Profile from './Profile/Profile';
+import Navbar from './Navbar/Navbar';
 
 function App() {
   const classes = useStyles();
@@ -37,4 +37,3 @@ function App() {
 }
 
 export default App;
-
