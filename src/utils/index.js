@@ -20,7 +20,7 @@ export const fetchToken = async () => {
     }
     return null; // Added return statement
   } catch (error) {
-    console.log('Sorry, your token could not be created.');
+    //console.log('Sorry, your token could not be created.');
     return null; // Added return statement
   }
 };
@@ -37,7 +37,7 @@ export const createSessionId = async () => {
 
       return sessionId; // Updated identifier to camel case
     } catch (error) {
-      console.log(error);
+      //console.log(error);
       return null; // Added return statement
     }
   }
