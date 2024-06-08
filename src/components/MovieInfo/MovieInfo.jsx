@@ -7,7 +7,7 @@ import axios from 'axios';
 
 import useStyles from './styles';
 
-import {MovieList} from '../index';
+import {MovieList} from '../MovieList/MovieList';
 
 import { useGetMovieQuery, useGetRecommendationsQuery, useGetListQuery } from '../../services/TMDB';
 import { selectGenreOrCategory } from '../../features/currentGenreOrCategory';
