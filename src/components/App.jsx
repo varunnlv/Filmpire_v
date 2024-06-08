@@ -6,7 +6,6 @@ import useStyles from './styles';
 import useAlan from './Alan';
 
 import { Movies, Actors, MovieInfo, Navbar, Profile } from './index';
-import store from '../app/store'; // Import Redux store configuration
 
 function App() {
   const classes = useStyles();
