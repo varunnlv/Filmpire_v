@@ -9,7 +9,7 @@ import {Actors} from '../components/Actors/Actors';
 import {Movies} from '../components/Movies/Movies';
 import {MovieInfo} from '../components/MovieInfo/MovieInfo';
 import {Profile} from '../components/Profile/Profile';
-import { Navbar } from '../components/Navbar/Navbar';
+import {Navbar} from '../components/Navbar/Navbar';
 
 function App() {
   const classes = useStyles();
