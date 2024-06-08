@@ -24,4 +24,4 @@ function Pagination({ currentPage, setPage, totalPages }) {
   );
 }
 
-export default Pagination;
+export {Pagination};
