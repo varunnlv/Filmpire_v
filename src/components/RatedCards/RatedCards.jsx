@@ -20,4 +20,4 @@ function RatedCards({ title, movies }) {
   );
 }
 
-export default RatedCards;
+export {RatedCards};
