@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux'; // Import useDispatch an
 
 import useStyles from './styles'; // Import styles from external file
 
-import {Sidebar} from '../Sidebar/Sidebar;
+import {Sidebar} from '../Sidebar/Sidebar';
 import {Search} from '../Search/Search';
 
 import { setUser } from '../../features/auth'; // Import setUser action from auth feature
